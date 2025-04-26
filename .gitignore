@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.venv
+venv/
+ENV/
+env/
+
+# JavaScript / TypeScript
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.npm
+.eslintcache
+.stylelintcache
+.parcel-cache
+.cache/
+.next/
+out/
+.nuxt/
+.vuepress/dist
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.netlify
+
+# Build outputs
+/dist
+/tmp
+/out-tsc
+/bazel-out
+*.tsbuildinfo
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# System Files
+.DS_Store
+Thumbs.db
+.directory
+.Trash-*
+.fuse_hidden*
+.nfs*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Frontend build files
+/frontend/dist
+/frontend/build
+
+# Backend generated files
+/backend/__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.* 
